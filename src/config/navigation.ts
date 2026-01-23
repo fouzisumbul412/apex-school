@@ -106,10 +106,22 @@ export const socialLinks = [
 
 export const contactInfo = {
   addresses: [
-    "H.NO:- 18-13-8/A/16/H/6, Wadi E Farhan, Subhan Hills, Bandlaguda, Hyderabad, TS - 500005",
-    "16-4-14, MAM Center, Beside MAM Palace, Chanchalguda, Malakpet, Hyderabad",
+    {
+      label: "Bandlaguda Campus",
+      address:
+        "18-13-8/A/16/H/6, Wadi E Farhan, Subhan Hills, Bandlaguda, Hyderabad, TS - 500005",
+      mapUrl:
+        "https://www.google.com/maps?q=18-13-8/A/16/H/6,+Wadi+E+Farhan,+Subhan+Hills,+Bandlaguda,+Hyderabad,+TS+500005",
+    },
+    {
+      label: "Malakpet Campus",
+      address:
+        "16-4-14, MAM Center, Beside MAM Palace, Chanchalguda, Malakpet, Hyderabad",
+      mapUrl:
+        "https://www.google.com/maps?q=16-4-14,+MAM+Center,+Beside+MAM+Palace,+Chanchalguda,+Malakpet,+Hyderabad",
+    },
   ],
-  phone: "+91 79897 85346, +91 81429 74915",
+  phone: "+91 79897 85346",
   email: "Info@apextheschool.in",
   hours: "Mon - Sat: 8:00 AM - 4:00 PM",
 };
